@@ -1,9 +1,9 @@
 #TRASH #2 WORKFLOW
 
-name: My-Trash  
+#name: My-Trash  
 
-env:
-   C_SIZE  : "20cm"
+#env:
+  # C_SIZE  : "20cm"
    B_WEIGHT: "50KG"
 on: 
   push: 
@@ -35,8 +35,8 @@ jobs:
           run : echo "Hey My Balls!!"
           
         - name: Print Cock Size and Balls Weight
-          run : |
-            echo "My cock is ${{ env.C_SIZE }}"
-            echo "My balls weight ${{ env.B_WEIGHT }}"
+ #         run : |
+  #        echo "My cock is ${{ env.C_SIZE }}"
+ #           echo "My balls weight ${{ env.B_WEIGHT }}"
             
  
